@@ -1,0 +1,20 @@
+[
+{
+    "activity":"com.genshuixue.student/com.restructure.student.ui.activity.main.MainActivity",
+    "xpath": "//*[@class='android.widget.ImageView' and @resource-id='com.genshuixue.student:id/student_fragment_index_new_user_gift_jump']"
+},
+{
+    "activity":"com.genshuixue.student/com.restructure.student.ui.activity.main.MainActivity",
+    "xpath": "//*[@class='android.widget.RelativeLayout' and @resource-id='com.genshuixue.student:id/student_activity_main_discovery_container']"
+},
+{
+    "activity":"com.genshuixue.student/com.restructure.student.ui.activity.main.MainActivity",
+    "xpath": "//*[@class='android.widget.ImageView' and @resource-id='com.genshuixue.student:id/student_view_layout_banner_item_image']",
+    "index": 0,
+    "bounds": "[48,314][1032,704]"
+},
+{
+    "activity":"com.genshuixue.student/com.restructure.student.ui.activity.main.MainActivity",
+    "bounds": "[540,1782][810,1917]"
+}
+]

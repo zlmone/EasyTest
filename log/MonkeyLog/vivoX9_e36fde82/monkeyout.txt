@@ -1,0 +1,123 @@
+version:1.0.3.0806.1015               
+                                      
+                                      
+            ..                    ..:.
+           ..t..     Maxim      .h..
+            ..i..  . ....... .  ..si
+              sandroidmonkeystreste
+              .sttoolMaxim.thistool.
+           .helpyoutofoundappcrash.thi
+         ..stooluserandomordfsalgorithm:.
+        .smonkeyMaxim machine gunmonkey..
+      ..monkey,..,monkeymonkeym,..,onkeym.
+      .onkeymon..keymon.keymonke..ymonkeym.
+      ,onkeymonkeymonkeymonkeymonkeymon.key.
+     .monkeymonkeymonkeymonkeymonkeymonkeym.
+     .onkeymonkeymonkeythxforphdguxiaotian.:
+     .anythingUcancontactpanda_zzaqq77227005
+      .                                   . 
+                                            
+      .                                   . 
+                                            
+[Maxim] // Monkey: seed=1593753791862 count=1000
+
+
+
+[Maxim] // Selecting main activities from category android.intent.category.LAUNCHER
+[Maxim] // + Using main activity com.restructure.student.ui.activity.launcher.LauncherActivity (from package com.genshuixue.student)
+[Maxim] // Selecting main activities from category android.intent.category.MONKEY
+[Maxim] // Add Launcher To ActivityWhiteList : com.restructure.student.ui.activity.launcher.LauncherActivity
+[Maxim] // AllowPackage: com.genshuixue.student
+[Maxim] // AllowActivity: com.restructure.student.ui.activity.main.MainActivity
+[Maxim] // AllowActivity: com.genshuixue.liveback.ui.activity.LiveBackActivity
+[Maxim] // AllowActivity: com.baijiahulian.live.ui.activity.LiveRoomActivity
+[Maxim] // AllowActivity: com.restructure.student.ui.activity.launcher.LauncherActivity
+[Maxim] // IncludeCategory: android.intent.category.LAUNCHER
+[Maxim] // IncludeCategory: android.intent.category.MONKEY
+[Maxim] // Special Event: 
+[Maxim] // Event1:
+[Maxim] // Prob: 1.0
+[Maxim] // Actvity: 
+[Maxim]   // Step0:
+[Maxim]     // XPath: //*[@class='android.widget.Button' and @resource-id='com.genshuixue.student:id/student_dialog_fragment_login_way_tel']
+[Maxim]     // XPathExpression: org.apache.xpath.jaxp.XPathExpressionImpl@47cbf09
+[Maxim]     // Action: CLICK
+[Maxim]     // Text: 
+[Maxim]     // Throttle: 1000
+[Maxim]   // Step1:
+[Maxim]     // XPath: //*[@class='android.widget.EditText' and @resource-id='com.genshuixue.student:id/student_fragment_input_edit_phone']
+[Maxim]     // XPathExpression: org.apache.xpath.jaxp.XPathExpressionImpl@548450e
+[Maxim]     // Action: INPUTTEXT
+[Maxim]     // Text: 18820200001
+[Maxim]     // Throttle: 300
+[Maxim]   // Step2:
+[Maxim]     // XPath: //*[@class='android.widget.TextView' and @resource-id='com.genshuixue.student:id/student_fragment_input_next']
+[Maxim]     // XPathExpression: org.apache.xpath.jaxp.XPathExpressionImpl@ba3db2f
+[Maxim]     // Action: CLICK
+[Maxim]     // Text: 
+[Maxim]     // Throttle: 1000
+[Maxim]   // Step3:
+[Maxim]     // XPath: //*[@class='android.widget.EditText' and @resource-id='com.genshuixue.student:id/student_fragment_input_edit_password']
+[Maxim]     // XPathExpression: org.apache.xpath.jaxp.XPathExpressionImpl@6e6d53c
+[Maxim]     // Action: INPUTTEXT
+[Maxim]     // Text: qwer1234
+[Maxim]     // Throttle: 300
+[Maxim]   // Step4:
+[Maxim]     // XPath: //*[@class='android.widget.TextView' and @resource-id='com.genshuixue.student:id/student_fragment_input_password_login']
+[Maxim]     // XPathExpression: org.apache.xpath.jaxp.XPathExpressionImpl@da942c5
+[Maxim]     // Action: CLICK
+[Maxim]     // Text: 
+[Maxim]     // Throttle: 1000
+[Maxim] // Event2:
+[Maxim] // Prob: 1.0
+[Maxim] // Actvity: 
+[Maxim]   // Step0:
+[Maxim]     // XPath: //*[@class='android.widget.ImageView' and @resource-id='com.genshuixue.student:id/guide_lottie']
+[Maxim]     // XPathExpression: org.apache.xpath.jaxp.XPathExpressionImpl@cc7a41a
+[Maxim]     // Action: SWIPE
+[Maxim]     // Swipe Point1(10,1000)->Point2(800,1000) step 100
+[Maxim]     // Text: 
+[Maxim]     // Throttle: 3000
+[Maxim] // Event3:
+[Maxim] // Prob: 1.0
+[Maxim] // Actvity: 
+[Maxim]   // Step0:
+[Maxim]     // XPath: //*[@class='android.widget.ImageView' and @resource-id='com.genshuixue.student:id/fragment_guide_one_new_v1_to_main']
+[Maxim]     // XPathExpression: org.apache.xpath.jaxp.XPathExpressionImpl@b1cfb4b
+[Maxim]     // Action: CLICK
+[Maxim]     // Text: 
+[Maxim]     // Throttle: 1000
+[Maxim] // Event4:
+[Maxim] // Prob: 1.0
+[Maxim] // Actvity: 
+[Maxim]   // Step0:
+[Maxim]     // XPath: //*[@class='android.widget.ImageView' and @resource-id='com.genshuixue.student:id/dialog_privacy_policy_agree']
+[Maxim]     // XPathExpression: org.apache.xpath.jaxp.XPathExpressionImpl@6ea0928
+[Maxim]     // Action: CLICK
+[Maxim]     // Text: 
+[Maxim]     // Throttle: 1000
+[Maxim] // Black Widget List: 
+[Maxim] // InputMethod ID: InputMethodInfo{com.baidu.input_bbk.service/.PinyinIME, settings: com.baidu.input_bbk.settings.SettingsMain}.id
+[Maxim] // InputMethod ID: InputMethodInfo{com.android.adbkeyboard/.AdbIME, settings: null}.id
+[Maxim] // Find ADBKeybaord.
+[Maxim] // InputMethod ID: InputMethodInfo{com.github.uiautomator/.FastInputIME, settings: null}.id
+[Maxim] // Device Info: vivo-vivo X9, Android Version: 7.1.2
+[Maxim] strategy : uiautomator-DFS.
+
+
+
+[Maxim] // : debug, currentActivity is com.genshuixue.liveback.ui.activity.LiveBackActivity
+[Maxim] // event0, 2020-07-03 10:48:54.930 
+[Maxim] // Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.genshuixue.student/com.restructure.student.ui.activity.launcher.LauncherActivity;end 
+[Maxim] // Activity : com.restructure.student.ui.activity.launcher.LauncherActivity in Intent
+[Maxim] // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.genshuixue.student/com.restructure.student.ui.activity.launcher.LauncherActivity } in package com.genshuixue.student
+[Maxim] // event1, 2020-07-03 10:48:54.952 
+[Maxim] // Sleeping for 500 milliseconds
+[Maxim] // activityResuming(com.genshuixue.student)
+[Maxim] // event1, 2020-07-03 10:48:55.454 
+[Maxim] // Sleeping for 6000 milliseconds
+[Maxim] // event1, 2020-07-03 10:49:01.456 
+[Maxim] // Sleeping for 500 milliseconds
+[Maxim] // Monkey is over!
+[Maxim] // Sending rotation degree= 0, false
+[Maxim] // Unaccounted for: 7042

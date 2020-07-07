@@ -1,0 +1,24 @@
+java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@423c8baalready registered!
+	at android.os.Parcel.createException(Parcel.java:1961)
+	at android.os.Parcel.readException(Parcel.java:1921)
+	at android.os.Parcel.readException(Parcel.java:1871)
+	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:409)
+	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:399)
+	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:97)
+	at android.app.UiAutomation.connect(UiAutomation.java:234)
+	at android.app.UiAutomation.connect(UiAutomation.java:210)
+	at tv.panda.test.monkey.MonkeySourceRandomUiAutomatorMix.connect(MonkeySourceRandomUiAutomatorMix.kt:107)
+	at tv.panda.test.monkey.MonkeySourceRandomUiAutomatorMix.<init>(MonkeySourceRandomUiAutomatorMix.kt:126)
+	at tv.panda.test.monkey.Monkey.run(Monkey.kt:538)
+	at tv.panda.test.monkey.Monkey$Companion.main(Monkey.kt:1299)
+	at tv.panda.test.monkey.Monkey.main(Unknown Source:7)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:388)
+Caused by: android.os.RemoteException: Remote stack trace:
+	at com.android.server.accessibility.UiAutomationManager.registerUiTestAutomationServiceLocked(UiAutomationManager.java:92)
+	at com.android.server.accessibility.AccessibilityManagerService.registerUiTestAutomationService(AccessibilityManagerService.java:799)
+	at android.view.accessibility.IAccessibilityManager$Stub.onTransact(IAccessibilityManager.java:159)
+	at android.os.Binder.execTransact(Binder.java:726)
+
+[Maxim] *** ERROR // : the top activity package com.android.systemui is invalid.
+[Maxim] *** ERROR // : the top activity package com.android.systemui is invalid.

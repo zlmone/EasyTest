@@ -1,0 +1,27 @@
+[
+{
+    "firstList":
+    [
+        {  "xpath": "//*[contains(@text,'进教室')]" },
+        {  "xpath": "//*[contains(@text,'看回放')]" }
+    ],
+    "selectList":
+    [
+        {  "xpath": "//*[@clickable='true']" },
+        {  "xpath": "//*[@clickable='true']//*[contains(name(),'Text')]" },
+        {  "xpath": "//*[@clickable='true']//*[contains(name(),'Button')]" },
+        {  "xpath": "//*[@clickable='true']//*[contains(name(),'Image')]" }
+    ],
+    "lastList":
+    [
+        {  "xpath": "//*[../*[@selected='true']]" },
+        {  "xpath": "//*[../../*/*[@selected='true']]" },
+        {  "xpath": "//*[contains(@resource-id,'student_activity_main_home')]" }
+    ],
+    "blackList":
+    [
+        {  "xpath": "//*[contains(@resource-id,'share')]" },
+        {  "xpath": "//*[contains(@resource-id,'search')]" }
+    ]
+}
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "prob": 1,
+    "actions": [
+      {
+        "activity": "com.genshuixue.student/com.restructure.student.ui.activity.login.LoginWayDialogActivity",
+        "xpath": "//*[@class='android.widget.Button' and @resource-id='com.genshuixue.student:id/student_dialog_fragment_login_way_tel']",
+        "index": 0,
+        "action": "CLICK",
+        "throttle": 1000
+      },
+      {
+        "activity": "com.genshuixue.student/com.restructure.student.ui.activity.login.NewLoginV1Activity",
+        "xpath": "//*[@class='android.widget.EditText' and @resource-id='com.genshuixue.student:id/student_fragment_input_edit_phone']",
+        "action": "INPUTTEXT",
+        "text": "18820200001",
+        "index": 1,
+        "throttle": 300
+      },
+      {
+        "activity": "com.genshuixue.student/com.restructure.student.ui.activity.login.NewLoginV1Activity",
+        "xpath": "//*[@class='android.widget.TextView' and @resource-id='com.genshuixue.student:id/student_fragment_input_next']",
+        "index": 2,
+        "action": "CLICK",
+        "throttle": 1000
+      },
+      {
+        "activity": "com.genshuixue.student/com.restructure.student.ui.activity.login.NewLoginV1Activity",
+        "xpath": "//*[@class='android.widget.EditText' and @resource-id='com.genshuixue.student:id/student_fragment_input_edit_password']",
+        "action": "INPUTTEXT",
+        "text": "qwer1234",
+        "index": 3,
+        "throttle": 300
+      },
+      {
+        "activity": "com.genshuixue.student/com.restructure.student.ui.activity.login.NewLoginV1Activity",
+        "xpath": "//*[@class='android.widget.TextView' and @resource-id='com.genshuixue.student:id/student_fragment_input_password_login']",
+        "index": 4,
+        "action": "CLICK",
+        "throttle": 1000
+      }
+    ]
+  },
+  {
+    "prob": 1,
+    "actions": [
+      {
+        "xpath": "//*[@class='android.widget.ImageView' and @resource-id='com.genshuixue.student:id/guide_lottie']",
+        "index": 0,
+        "action": "SWIPE",
+        "args": "10,1000,800,1000,100",
+        "throttle": 3000
+      }
+    ]
+  },
+  {
+    "prob": 1,
+    "actions": [
+      {
+        "xpath": "//*[@class='android.widget.ImageView' and @resource-id='com.genshuixue.student:id/fragment_guide_one_new_v1_to_main']",
+        "index": 0,
+        "action": "CLICK",
+        "throttle": 1000
+      }
+    ]
+  },
+    {
+    "prob": 1,
+    "actions": [
+      {
+        "xpath": "//*[@class='android.widget.ImageView' and @resource-id='com.genshuixue.student:id/dialog_privacy_policy_agree']",
+        "index": 0,
+        "action": "CLICK",
+        "throttle": 1000
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+---
+DEVICES:
+  # atx-server
+  # 根据atx-server地址获取所有online设备
+  #  SERVER: "http://10.0.32.8:8000"
+  #  method: "SERVER"
+
+  # atxserver2
+  #  SERVER: "http://192.168.3.41:4000"
+  #  token: "57aca3bd69534b9bb386247bebef4f67"
+
+  # 根据atxserver2地址获取所有online android设备
+  #  method: "SERVER2"
+
+  # 从atxserver2地址检查udid在线的设备 udid以'|'分隔
+  #  udid: "ce051715b2ef600802|89asda"
+  #  method:  "UDID"
+
+  # 根据devices设备IP列表 获取在线设备 IP 以'|'分隔
+  #  IP: "10.0.30.92|192.168.31.153|10.0.28.90|192.168.1.8"
+  #  method: "IP"
+
+
+  # 自动获取线连电脑的设备并尝试自启动u2
+  method: "USB"
+
+
+APP:
+  apk_url: "https://npmcdn.com/android-app-bootstrap@latest/android_app_bootstrap/build/outputs/apk/android_app_bootstrap-debug.apk"
+  apk_path: "../apk/student-release.apk"
+  pkg_name: "com.genshuixue.student"
+
+Monkey:
+#  runner 可选模式 maxim; 原生模式 native; is_single 是否单页面稳定性：1 是 0 否
+  runner: native
+  is_single: 0
+  widget: "看回放"
+  schema: None
+  main_activity: None
+  white_activity: "com.genshuixue.student/com.genshuixue.liveback.ui.activity.LiveBackActivity"
+  internal: 3
+  max_time: 60
+  events: # 各个事件比例
+    pct-touch: 40
+    pct-motion: 40
+    pct-trackball: 0
+    pct-nav: 0
+    pct-appswitch: 0
+    pct-anyevent: 0
+    pct-permission: 0
+    pct-syskeys: 0
+    pct-majornav: 5
+    pct-pinchzoom: 0
+    pct-flip: 15
+
+
+TESTDATA:
+  phone: "18820200001"
+  password: "qwer1234"
